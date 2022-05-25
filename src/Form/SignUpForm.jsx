@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {RedButton} from "../Componets/RedButton";
 import {TextField} from "../Componets/TextField";
 
@@ -10,7 +11,9 @@ export const SignUpForm = () =>{
            <TextField/>
            <TextField/>
            <TextField/>
-           <RedButton name={<h3>Sign Up</h3>}/>
+           <NavLink exact to="/UserProfilePage">
+               <RedButton name={<h3>Sign Up</h3>}/>
+           </NavLink>
         </div>
     </>
 }

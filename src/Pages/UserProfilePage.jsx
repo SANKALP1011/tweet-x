@@ -11,7 +11,6 @@ export const UserProfilePage = () =>{
     const [users,setUsers] = useState(false);
     const [following,setFollowing] = useState(false);
    
-    
     return<>
     <Navbar/>
        <div className="UserProfilePageDiv">
