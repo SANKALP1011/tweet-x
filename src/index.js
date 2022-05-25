@@ -5,7 +5,7 @@ import "../src/Styles/index.css";
 import "../src/Styles/ComponentsStyles/TextField.css";
 import "../src/Styles/ComponentsStyles/RedButton.css";
 import "../src/Styles/ComponentsStyles/Font.css";
-import "../src/Styles/Form/SignUpForm.css";
+import "../src/Styles/Form/Form.css";
 import "../src/Styles/ComponentsStyles/CompanyLogo.css";
 import "../src/Styles/ComponentsStyles/WhiteButton.css";
 

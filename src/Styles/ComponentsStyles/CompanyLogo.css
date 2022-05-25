@@ -12,3 +12,6 @@
     width: 65%;
     margin: 25% auto;
 }
+.d{
+    display: flex;
+}
