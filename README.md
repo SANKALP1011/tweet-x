@@ -12,4 +12,15 @@
  > - Each and every react component is working properly including the user profile dashboard.
  > - Design of the landing page is not permanent right now.
 
+# Screenshot from live site -:
+
+![UserDashBoard](https://github.com/SANKALP1011/tweet-x/blob/master/Screenshots/UserDashboard.png)
+![UserDashBoard(post)](https://github.com/SANKALP1011/tweet-x/blob/master/Screenshots/UserDshBoard(Post).png)
+![userdashboad(following)](https://github.com/SANKALP1011/tweet-x/blob/master/Screenshots/Userdashbaord(following).png)
+![userdashboard(followers)](https://github.com/SANKALP1011/tweet-x/blob/master/Screenshots/UserDashbaord(Follerrs).png)
+![Feed](https://github.com/SANKALP1011/tweet-x/blob/master/Screenshots/Posts.png)
+![Users](https://github.com/SANKALP1011/tweet-x/blob/master/Screenshots/Users.png)
+
+
+
 
