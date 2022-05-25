@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { UserProfileTop } from "../Componets/UserProfileTop";
 import { Navbar } from "../Componets/NavBar";
@@ -10,6 +10,7 @@ export const UserProfilePage = () =>{
     const [feed,setFeed] = useState(false);
     const [users,setUsers] = useState(false);
     const [following,setFollowing] = useState(false);
+   
     
     return<>
     <Navbar/>

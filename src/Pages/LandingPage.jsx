@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Tweet from "../Assets/Tweet.svg";
 import { Navbar } from "../Componets/NavBar";
 import { RedButton } from "../Componets/RedButton";
@@ -11,7 +12,9 @@ export const LandingPage = () =>{
              <h1 className="LandingPageHeading">Welcome</h1>
              <h2  className="LandingPageHeading">to the tweet-x.</h2>
              <h2 className="LandingSubFont">Only place to stay connected with everyone.</h2>
-             <RedButton name={<h3>Sign In</h3>}/>
+             <NavLink exact to="/signin">
+                <RedButton name={<h3>Sign In</h3>}/>
+             </NavLink>
           </div>
           <img src={Tweet} className="LandingImage" alt="tweet"/>
       </div>
