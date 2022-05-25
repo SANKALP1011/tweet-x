@@ -9,6 +9,7 @@ import "../src/Styles/Form/Form.css";
 import "../src/Styles/ComponentsStyles/CompanyLogo.css";
 import "../src/Styles/ComponentsStyles/WhiteButton.css";
 import "../src/Styles/ComponentsStyles/FeedCard.css";
+import "../src/Styles/ComponentsStyles/Buttons.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
