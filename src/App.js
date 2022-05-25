@@ -3,7 +3,7 @@ import LandingPage from './Pages/LandingPage';
 import SignUp from "./Pages/SignUp";
 import LogIn from "./Pages/LogIn";
 import FeedPage from "../src/Pages/Feed";
-import { FeedCard } from "./Componets/FeedCard";
+import User from "./Pages/Users";
 
 function App() {
   return <>
@@ -14,6 +14,7 @@ function App() {
      <Route exact path="/signin" element={<SignUp/>}/>
      <Route exact path='/login' element={<LogIn/>} />
      <Route exact path="/FeedPage" element={<FeedPage/>}/>
+     <Route exact path="/UserPage" element={<User/>}/>
 
    </Routes>
  </Router>
