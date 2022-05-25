@@ -6,7 +6,7 @@ import { TextField } from "../Componets/TextField";
 export const SignUp = () =>{
     return <>
      
-
+   
     
     </>
 }

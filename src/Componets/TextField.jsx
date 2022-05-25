@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/TextField.css";
+import "../Styles/ComponentsStyles/TextField.css";
 
 export const TextField = ({label}) =>{
     return(

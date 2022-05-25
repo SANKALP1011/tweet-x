@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import "../src/Styles/index.css";
-import "../src/Styles/TextField.css";
+import "../src/Styles/ComponentsStyles/TextField.css";
+import "../src/Styles/ComponentsStyles/RedButton.css";
+import "../src/Styles/ComponentsStyles/Font.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
