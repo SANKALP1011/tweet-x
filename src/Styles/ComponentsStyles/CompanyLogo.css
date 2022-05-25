@@ -12,6 +12,9 @@
     width: 65%;
     margin: 25% auto;
 }
-.d{
-    display: flex;
+.ProfilePic{
+    width: 13%;
+    height: 13%;
+    border-radius: 20px;
+    margin: 3% 2% 0 3%;
 }

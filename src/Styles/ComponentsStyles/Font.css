@@ -9,6 +9,16 @@
       margin: 2% 1% 1% 5%;
       padding-right: 17%;
 }
+.UserName{
+    font-size: 25px;
+    opacity: 0.5;
+}
+.FeedFont{
+    font-family: 5px;
+    opacity: 0.3;
+    word-wrap: break-word;
+    padding: 3% 4% 3% 0%;
+}
 h3{
     color: white;
 }
