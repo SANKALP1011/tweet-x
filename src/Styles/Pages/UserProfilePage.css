@@ -1,0 +1,38 @@
+hr.line{
+    border-top: 2px solid grey;
+    margin: 0 auto;
+    width: 50%;
+}
+/* .UserOptions{
+    margin: 1% auto;
+} */
+button.Posts{
+    margin: 0% 2% 0% 35%;
+    opacity: 0.4;
+}
+button.Posts:hover{
+    color: #FF748C;
+    opacity: 1;
+    text-decoration: underline;
+}
+button.Followers{
+    margin: 0% 2% 0% 4%;  
+    opacity: 0.4;
+}
+button.Followers:hover{
+    color: #FF748C;
+    opacity: 1;
+    text-decoration: underline;
+}
+button.Following{
+    margin: 0% 2% 0% 4%;  
+    opacity: 0.4;
+}
+button.Following:hover{
+    color: #FF748C;
+    opacity: 1;
+    text-decoration: underline;
+}
+div.CardInformation{
+    margin-top: 2%;
+}

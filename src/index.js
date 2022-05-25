@@ -13,6 +13,9 @@ import "../src/Styles/ComponentsStyles/Buttons.css";
 import "../src/Styles/ComponentsStyles/UserCard.css";
 import "../src/Styles/ComponentsStyles/UserProfileTop.css";
 import "../src/Styles/ComponentsStyles/NavBar.css";
+import  "../src/Styles/Pages/UserProfilePage.css";
+import "../src/Styles/ComponentsStyles/FollowingCard.css";
+import "../src/Styles/Pages/LandingPage.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

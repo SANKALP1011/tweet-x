@@ -1,15 +1,20 @@
 import React from "react";
+import Tweet from "../Assets/Tweet.svg";
+import { Navbar } from "../Componets/NavBar";
 import { RedButton } from "../Componets/RedButton";
-import { WhiteButton } from "../Componets/WhiteButton";
-import { TextField } from "../Componets/TextField";
 
 export const LandingPage = () =>{
     return<>
-    <h1>This the landing page.</h1>
-    <RedButton name={<h3>Sign up</h3>} />
-    <WhiteButton name={<h3>white</h3>} />
-    <TextField placeholder="HHIJI"/>
-    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+    <Navbar/>
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+          <div className="LandingPage">
+             <h1 className="LandingPageHeading">Welcome</h1>
+             <h2  className="LandingPageHeading">to the tweet-x.</h2>
+             <h2 className="LandingSubFont">Only place to stay connected with everyone.</h2>
+             <RedButton name={<h3>Sign In</h3>}/>
+          </div>
+          <img src={Tweet} className="LandingImage" alt="tweet"/>
+      </div>
     </>
 
 }

@@ -1,3 +1,14 @@
+.LandingPageHeading{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.LandingSubFont{
+    font-family: 40px;
+    opacity: 0.5;
+    word-wrap: break-word;
+    padding: 3% 4% 3% 0%;
+}
 .SignUphHeading{
     color: #5D676E;
     font-weight: bolder;

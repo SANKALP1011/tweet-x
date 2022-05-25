@@ -1,0 +1,17 @@
+div.FollowingCard{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+div.FollowingData{
+    display: flex;
+    margin: 6% 2% 0 3%;
+}
+p.Following{
+    opacity: 0.5;
+    font-size: 20px;
+    color: gray;
+    margin-left: 170%;
+}
