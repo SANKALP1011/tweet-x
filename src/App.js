@@ -1,5 +1,6 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import LandingPage from './Pages/LandingPage';
+import SignUp from "./Pages/SignUp";
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   
  <Router>
    <Routes>
-     <Route exact path='/' element={<LandingPage/>} />
+     <Route exact path='/' element={<SignUp/>} />
    </Routes>
  </Router>
   

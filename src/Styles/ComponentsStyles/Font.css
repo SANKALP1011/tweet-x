@@ -1,5 +1,8 @@
-h1{
-    color: white;
+.SignUphHeading{
+    color: #5D676E;
+    font-weight: bolder;
+    margin: 2% 5% 6% 5%;
+    font-size: 30px;
 }
 h3{
     color: white;
