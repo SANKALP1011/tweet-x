@@ -1,0 +1,24 @@
+.NavBar{
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.RightAlign{
+    float: right;
+    margin-left: 60%;
+}
+.NavBar a{ 
+    color:  #D1D4D6;;
+    padding: 20%;
+    float: right;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 1.2;
+}
+a:hover{
+    color: #FF748C;
+}

@@ -1,0 +1,16 @@
+.UserProfileDiv{
+    display: flex;
+    margin: 2% auto;
+    padding: 2px;
+    width: 700px;
+}
+.UserProfileData{
+    /* margin: 5% 0 1% 7%; */
+    display: inline-block;
+    margin: 0 auto;
+    padding: 6px;
+}
+.UserProfileInfo{
+    display: flex;
+    margin: auto;
+}
